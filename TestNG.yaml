@@ -1,0 +1,8 @@
+name: Automation
+configFailurePolicy: skip
+tests:
+  - name: Quiklyz App
+    parameters: { browser: firefox }
+    classes:
+      - com.testCases.TC_LoginTest_001
+

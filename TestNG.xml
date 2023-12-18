@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+  
+ <listeners>
+  <listener class-name="com.utilities.Reporting"/>
+ </listeners> 
+  
+  <test name="Quiklyz App">
+  <parameter name="browser" value="firefox" />
+  <classes>
+  <class name="com.testCases.TC_PLPPageStabilityCheck_Quik_956" />
+ 
+  </classes>
+  </test>
+  <!-- Test -->
+</suite> <!-- Suite -->

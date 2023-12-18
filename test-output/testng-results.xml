@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Automation" duration-ms="34999" started-at="2023-12-18T12:39:34Z" finished-at="2023-12-18T12:40:09Z">
+    <groups>
+    </groups>
+    <test name="Quiklyz App" duration-ms="34999" started-at="2023-12-18T12:39:34Z" finished-at="2023-12-18T12:40:09Z">
+      <class name="com.testCases.TC_PLPPageStabilityCheck_Quik_956">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.testCases.TC_PLPPageStabilityCheck_Quik_956@4dfa3a9d]" name="setup" is-config="true" duration-ms="14299" started-at="2023-12-18T18:09:34Z" finished-at="2023-12-18T18:09:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="PLPStable()[pri:0, instance:com.testCases.TC_PLPPageStabilityCheck_Quik_956@4dfa3a9d]" name="PLPStable" duration-ms="18953" started-at="2023-12-18T18:09:48Z" finished-at="2023-12-18T18:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PLPStable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.testCases.TC_PLPPageStabilityCheck_Quik_956@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="1484" started-at="2023-12-18T18:10:07Z" finished-at="2023-12-18T18:10:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testCases.TC_PLPPageStabilityCheck_Quik_956 -->
+    </test> <!-- Quiklyz App -->
+  </suite> <!-- Automation -->
+</testng-results>
