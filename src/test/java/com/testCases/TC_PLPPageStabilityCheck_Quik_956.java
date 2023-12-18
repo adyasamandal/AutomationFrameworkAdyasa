@@ -29,6 +29,7 @@ public class TC_PLPPageStabilityCheck_Quik_956 extends BaseClass {
 		
 		loadtimes();
         
+		System.out.println("test");
         //js.executeScript("window.scrollBy(0,-350)", "");
 }
 	
